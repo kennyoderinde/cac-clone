@@ -35,10 +35,10 @@ const Home = () => {
 
     {/* displays the 3 icons */}
     <CircleIcon />
-    <div className='mt-96 sm:mt-4'>
+    <div className='mt-[36rem] sm:mt-4'>
     <div className= ' w-full h-3 bg-lime-500'></div>
     <div className= ' sm:w-full sm:h-full bg-[#ebe8e5]'>
-      <p className=' font-semibold uppercase font-poppins sm:pt-14 sm:ml-20'>CORPORATE HEADQUARTERS</p>
+      <p className=' font-semibold uppercase font-poppins sm:pt-14 sm:ml-20 ml-20 pt-5'>CORPORATE HEADQUARTERS</p>
       <img src={CoatArms} alt='coat-arm' className='sm:w-48 sm:h-48 w-28 h-28 mt-8 ml-20'/>
       <span className=' w-40 h-60 flex items-start justify-start ml-20 pt-5 font-poppins font-semibold'>
         Plot 420, Tigris Crescent,

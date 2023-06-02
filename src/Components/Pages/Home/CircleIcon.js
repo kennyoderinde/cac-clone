@@ -27,7 +27,7 @@ const StepIcon = () => {
         key={id}
         >
           <Link to={path} className=" mt-6 sm:mt-10" onClick={handleButtonClick}>
-            <div className=" w-28 h-28 sm:w-28 sm:h-28 rounded-full bg-lime-600 flex justify-center items-center sm:flex sm:justify-center sm:items-center  ml-48 sm:ml-24 "><Icon  className=' text-white text-6xl flex :text-center sm:text-white sm:text-6xl sm:flex :text-center '/></div> {/* Render the icon component */}
+            <div className=" w-28 h-28 sm:w-28 sm:h-28 rounded-full bg-lime-600 flex justify-center items-center sm:flex sm:justify-center sm:items-center sm:mt-0 -mt-10 ml-48 sm:ml-24 "><Icon  className=' text-white text-6xl flex :text-center sm:text-white sm:text-6xl sm:flex :text-center '/></div> {/* Render the icon component */}
             <span className="text-base text-gray-600 font-light sm:mt-12 pt-6 sm:items-center sm:text-center text-center  " style={{ fontFamily: 'Roboto Slab' }}>{title}</span> {/* Changed 'text' to 'title' */}
             
             <div>

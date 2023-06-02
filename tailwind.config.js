@@ -14,9 +14,10 @@ module.exports = {
       color: {
         'flips' : '#ebe8e5',
         'bgs' : '#072d5b',
-      
-        
-      
+      },
+
+      spacing: {
+        '38': '30rem', // Replace with your desired value
       },
 
     },
