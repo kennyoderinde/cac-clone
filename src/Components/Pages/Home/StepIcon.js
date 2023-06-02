@@ -25,7 +25,7 @@ const StepIcon = () => {
       {IconData.map(({ id, icon: Icon, title, text2, path }) => ( // Fixed the variable name 'icon' to 'Icon' and added parentheses for mapping
         <div className=' sm:w-80 sm:h-80 border-2 sm:flex sm:justify-center sm:space-y-10 ' key={id}>
           <Link to={path} className=" mt-6 sm:mt-10" onClick={handleButtonClick}>
-            <div className="sm:w-28 sm:h-28 rounded-full bg-lime-600 sm:flex sm:justify-center sm:items-center ml-24"><Icon  className=' text-white sm:text-6xl sm:flex :text-center '/></div> {/* Render the icon component */}
+            <div className=" w-28 h-28 sm:w-28 sm:h-28 rounded-full bg-lime-600 sm:flex sm:justify-center sm:items-center ml-24"><Icon  className=' text-white sm:text-6xl sm:flex :text-center '/></div> {/* Render the icon component */}
             <span className="text-base text-gray-600 font-light sm:mt-12 p-6 sm:items-center" style={{ fontFamily: 'Roboto Slab' }}>{title}</span> {/* Changed 'text' to 'title' */}
             
             <div>

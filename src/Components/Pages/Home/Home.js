@@ -30,7 +30,7 @@ const Home = () => {
     <Cards />
 
       {/* Text: Step by step registration */}
-    <div className=' text-5xl sm:text-8xl font-light text-lime-700 sm:flex sm:justify-center text-center sm:-mt-60 mt-44' style={{ fontFamily: 'Roboto Slab' }}>Step by step registration </div>
+    <div className=' text-5xl sm:text-7xl font-light text-lime-700 sm:flex sm:justify-center text-center sm:-mt-40 mt-44' style={{ fontFamily: 'Roboto Slab' }}>Step by step registration </div>
 
 
     {/* displays the 3 icons */}
@@ -47,7 +47,7 @@ const Home = () => {
         Nigeria.
       </span>
     </div>
-    <div className= 'flex item-center justify-center w-full h-16 bg-lime-900 font-poppins text-white font-xs pt-6'>© Copyright 2019 - 2023 | CAC | All Rights Reserved | Powered by CAC Corporate Affairs Commission</div>
+    <div className= 'flex item-center justify-center text-center w-full h-16 bg-lime-900 font-poppins text-white text-xs pt-6'>© Copyright 2019 - 2023 | CAC | All Rights Reserved | Powered by CAC Corporate Affairs Commission @kennyoderyndeh</div>
 
 
     </>
