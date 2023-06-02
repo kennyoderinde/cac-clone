@@ -1,0 +1,11 @@
+ /* .sidebar-row.active {
+    background-color: #cd8e92;
+    border-right-width: 8px lime;
+    color: lime;
+    font-size: 22px;
+
+  } */
+
+  active{
+    color: rgb(17, 85, 17)
+  }
