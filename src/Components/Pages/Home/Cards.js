@@ -34,7 +34,7 @@ const FlipCard = ({ text, subText, backIcon, backText, path }) => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <div className="flip-card-inner sm:-mt-40 -mt-8 sm:w-full sm:h-full  ">
+      <div className="flip-card-inner sm:-mt-32 -mt-8 sm:w-full sm:h-full  ">
         <div className="flip-card-front bg-stone-100 flex flex-col items-center justify-center text-white">
           <div className= ' w-16 h-16 flex items-center justify-center sm:w-20 sm:h-20 rounded-full bg-zinc-700 sm:flex sm:items-center sm:justify-center sm:-mt-0'>
             <BackIcon className="back-icon sm:w-7 sm:h-7" />

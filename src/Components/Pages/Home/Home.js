@@ -2,7 +2,7 @@ import React from 'react'
 import cacBuilding from '../../assets/cacheadquater.jpg'
 import { FaSearch, FaDesktop } from 'react-icons/fa';
 import Cards from './Cards'
-import StepIcon from './StepIcon';
+import CircleIcon from './CircleIcon';
 import CoatArms from '../../assets/coat2-150x150.jpg'
 
 
@@ -30,12 +30,12 @@ const Home = () => {
     <Cards />
 
       {/* Text: Step by step registration */}
-    <div className=' text-5xl sm:text-7xl font-light text-lime-700 sm:flex sm:justify-center text-center sm:-mt-40 mt-44' style={{ fontFamily: 'Roboto Slab' }}>Step by step registration </div>
+    <div className=' text-5xl sm:text-7xl font-light text-lime-700 sm:flex sm:justify-center text-center sm:-mt-32 mt-44 leading-normal' style={{ fontFamily: 'Roboto Slab' }}>Step by step registration </div>
 
 
     {/* displays the 3 icons */}
-    <StepIcon />
-
+    <CircleIcon />
+    <div className='mt-96 sm:mt-4'>
     <div className= ' w-full h-3 bg-lime-500'></div>
     <div className= ' sm:w-full sm:h-full bg-[#ebe8e5]'>
       <p className=' font-semibold uppercase font-poppins sm:pt-14 sm:ml-20'>CORPORATE HEADQUARTERS</p>
@@ -47,8 +47,8 @@ const Home = () => {
         Nigeria.
       </span>
     </div>
-    <div className= 'flex item-center justify-center text-center w-full h-16 bg-lime-900 font-poppins text-white text-xs pt-6'>© Copyright 2019 - 2023 | CAC | All Rights Reserved | Powered by CAC Corporate Affairs Commission @kennyoderyndeh</div>
-
+    <div className= 'flex item-center justify-center text-center w-full h-16 bg-lime-900 font-poppins text-white text-xs pt-6'>© Copyright 2019 - 2023 | CAC | All Rights Reserved | Powered by @kennyoderyndeh</div>
+    </div>
 
     </>
   )
