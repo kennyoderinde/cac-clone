@@ -11,7 +11,6 @@ const navbarData = [
         id:2,
         title: 'About Us',
         link: 'about-us',
-    //      submenu: true,
     //      sublinks: [
     //     { sublink: 'Who we are', link: '/about-us/who-we-are' },
     //     { sublink: 'Board Members', link: '/about-us/board-members' },

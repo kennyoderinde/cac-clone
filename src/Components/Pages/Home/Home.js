@@ -11,15 +11,15 @@ const Home = () => {
   return (
     <>
     <div className='sm:max-w-full sm:h-full'>
-      <img src={cacBuilding} alt='' className='sm:w-full sm:h-full sm:mt-0  w-full h-full mt-0'/>
+      <img src={cacBuilding} alt='' className='sm:w-full sm:h-full sm:mt-28  w-full h-full mt-10 '/>
       <h1 className=' sm:flex sm:items-center sm:justify-center sm:text-7xl sm:font-light flex flex-wrap items-center justify-center px-4 text-4xl font-light sm:-mt-64 -mt-32  delay-700 duration-700' style={{ fontFamily: 'Roboto Slab' }}>Nigerian Corporate Registry</h1>
       
       <div className='  mt-20 m p-10 sm:flex sm:items-center sm:justify-center sm:space-x-20 sm:mt-40 sm:p-14'>
-      <button className=' z-10 w-full h-14 flex items-center  sm:w-full sm:h-14 sm:p-2 sm:flex justify-center sm:items-center uppercase text-lime-700 font-semibold gap-4 border-t border-b-2  bg-gradient-to-t from-lime-400  to-lime-200 rounded drop-shadow-2xl ' style={{ borderBottom: '3px solid rgb(17, 85, 17)'}}>
+      <button className=' z-0 sm:z-0 w-full h-14 flex items-center  sm:w-full sm:h-14 sm:p-2 sm:flex justify-center sm:items-center uppercase text-lime-700 font-semibold gap-4 border-t border-b-2  bg-gradient-to-t from-lime-400  to-lime-200 rounded drop-shadow-2xl ' style={{ borderBottom: '3px solid rgb(17, 85, 17)'}}>
         <FaSearch className=" sm:text-base text-white shadow-md " /> Public Search
       </button>
 
-      <button className=' z-10 w-full h-14 flex items-center  sm:w-full sm:h-14 sm:p-2 sm:flex justify-center sm:items-center uppercase text-lime-700 font-semibold gap-4 border-t border-b-2  bg-gradient-to-t from-lime-400  to-lime-200 rounded drop-shadow-2xl ' style={{ borderBottom: '3px solid rgb(17, 85, 17)'}}>
+      <button className=' z-0 sm:z-0 w-full h-14 flex items-center  sm:w-full sm:h-14 sm:p-2 sm:flex justify-center sm:items-center uppercase text-lime-700 font-semibold gap-4 border-t border-b-2  bg-gradient-to-t from-lime-400  to-lime-200 rounded drop-shadow-2xl ' style={{ borderBottom: '3px solid rgb(17, 85, 17)'}}>
         <FaDesktop className=" sm:text-base text-white shadow-md " />  Online Registration
       </button>
       </div>

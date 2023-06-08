@@ -23,13 +23,13 @@ const Search = () => {
     <>
       <div 
         onClick={toggleSearch}
-        className=" sm:flex sm:items-end sm:justify-end sm:-mt-14 sm:space-x-10 sm:mr-12 ">
+        className=" hidden sm:flex sm:items-end sm:justify-end sm:-mt-14 sm:space-x-10 sm:mr-12 ">
           <FaSearch className="text-black sm:text-base hover:text-lime-500" />
       </div>
     
     
    
-      <div className='z-0  left-20'>
+      <div className='z-0 absolute left-20'>
        
       {isSearchVisible && <SearchInput items={items} onSearch={handleSearch} />}
 
