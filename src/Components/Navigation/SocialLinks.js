@@ -59,7 +59,7 @@ const SocialLinks = () => {
               ]
   return (
     
-    <div className="w-full sm:h-16 h-28 bg-gray-800 sm:flex sm:items-center grid place-items-center">
+    <div className="w-full z-10 sm:h-16 h-28 bg-gray-800 sm:flex sm:items-center grid place-items-center">
          <p className=' whitespace-nowrap font-medium text-[10px] sm:text-xs sm:ml-16 sm:px-2 flex sm:m-auto items-center justify-center text-white  '>Call Us Today! 234 708-062-9000 | helpdesk@cac.gov.ng</p>
        
         <ul className=' flex items-center h-full space-x-3 mr-12' >

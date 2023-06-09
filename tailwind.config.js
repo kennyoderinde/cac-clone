@@ -19,6 +19,9 @@ module.exports = {
       spacing: {
         '60rem': '60rem', // Replace with your desired value
         '61rem': '61rem',
+        '43rem': '43rem' ,  
+
+        '27rem': '27rem' 
       },
 
       width: {
@@ -33,8 +36,13 @@ module.exports = {
       height: {
         '61' : '61rem',
         '42' : '42rem',
+        '31' : '31rem',
+
+
 
       },
+
+     
 
     },
   },
