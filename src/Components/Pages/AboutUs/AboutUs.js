@@ -37,12 +37,12 @@ const AboutUs = () => {
           </div>
         </div>
 
-        <div className= ' sm:relative relative sm:flex sm:flex-col flex flex-col items-center justify-center sm:w-full w-full sm:h-[31rem] h-[61rem] sm:-mt-8 mt-40 bg-white'>
-          <p className= 'text-black sm:text-6xl text-4xl flex text-center font-light leading-snug sm:mt-10 -mt-10'  style={{ fontFamily: 'Roboto Slab' }}>Functions of the Commission</p>
+        <div className= ' sm:relative relative sm:flex sm:flex-col flex flex-col items-center justify-center sm:w-full w-full sm:h-[31rem] h-[74rem] sm:-mt-8 mt-40 bg-white'>
+          <p className= 'text-black sm:text-6xl text-4xl flex text-center font-light leading-snug sm:mt-10 mt-20'  style={{ fontFamily: 'Roboto Slab' }}>Functions of the Commission</p>
         
           <div className="grid justify-center md:justify-end">
             <p className="px-14 py-6">The functions of the Commission as set out in section 7 of the Companies and Allied Matters Act, includes the following:</p>
-            <ul className="flex flex-col items-start justify-start -space-y-20 text-base sm:p-14 sm:-mt-32 px-10  py-5 w-full">
+            <ul className="flex flex-col items-start justify-start -space-y-20 text-base sm:p-14 sm:-mt-32 -mt-20 px-10  py-5 w-full">
               <li className="text-base font-poppins text-stone-600 p-14">To administer the Act, including the regulation and supervision of the formation, incorporation, management and winding up of companies</li>
               <li className="text-base font-poppins text-stone-600 p-14">To establish and maintain companies registry and offices in all the states of the Federation suitably and adequately equipped to discharge its functions under the Act or any law in respect of which it is charged with responsibility.</li>
               <li className="text-base font-poppins text-stone-600 p-14">Arrange and conduct an investigation into the affairs of any company where the interests of the shareholders and the public so demand.</li>
@@ -56,7 +56,7 @@ const AboutUs = () => {
         <Switch className= 'absolute' />
         <CoreValues />
 
-        <div className=' relative sm:top-52 top-72 '>
+        <div className='w-full h-screen relative sm:top-52 top-80 '>
           <div className= ' w-full h-3 bg-lime-600 sm:mt-4'></div>
           <div className= ' sm:w-full sm:h-full bg-[#dadbd9]'>
             <p className=' font-semibold uppercase font-poppins sm:pt-14 sm:ml-20 ml-20 pt-5'>CORPORATE HEADQUARTERS</p>
@@ -68,7 +68,7 @@ const AboutUs = () => {
               Nigeria.
             </span>
           </div>
-          <div className= 'flex item-center justify-center text-center w-full h-16 bg-lime-900 font-poppins text-white text-xs pt-6'>© Copyright 2019 - 2023 | CAC | All Rights Reserved | Powered by @kennyoderyndeh</div>
+          <div className= 'flex item-center justify-center text-center w-full h-16 bg-lime-900 font-poppins text-white text-sm pt-6'>© Copyright 2019 - 2023 | CAC | All Rights Reserved | Powered by @kennyoderyndeh</div>
           </div>
         
       </div> 

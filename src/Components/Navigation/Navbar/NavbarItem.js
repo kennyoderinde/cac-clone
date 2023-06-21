@@ -42,7 +42,7 @@ const Navbar = () => {
     </div>
 
     {nav && (
-      <nav className=" z-30 sm:hidden inline-block items-start justify-start w-full mt-8 ">
+      <nav className=" z-30 sm:hidden inline-block items-start justify-start w-full mt-0 ">
       <ul className=" bg-stone-100 mt-8" style={{ fontFamily: 'Roboto Slab' }}>
         {navItems.map((item) => (
           <li 

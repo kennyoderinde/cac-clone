@@ -54,7 +54,7 @@ const SwitchPage = () => {
   };
 
   return (
-    <div id="experienceSection" className=' sm:z-30 absolute sm:absolute bg-[#020c1b]  sm:p-4 w-full sm:w-full '>
+    <div id="experienceSection" className=' sm:z-30 absolute sm:absolute bg-[#020c1b]  sm:p-4 w-full sm:w-full mt-10 '>
           
         <div className="">
           <div className="  ">

@@ -22,25 +22,24 @@ const StepIcon = () => {
 
   return (
     <div className='w-full h-96 sm:w-full sm:h-96 sm:mt-20 mt-10 '>
-    <div className= ' grid sm:flex sm:items-center items-center justify-center text-center sm:space-x-16 '>
-      {IconData.map(({ id, icon: Icon, title, text2, path }) => ( // Fixed the variable name 'icon' to 'Icon' and added parentheses for mapping
-        <div className=' w-full h-80 sm:w-80 sm:h-80 border-2 flex justify-center items-center sm:flex sm:justify-center sm:space-y-10 space-y-10 ml-0  ' 
-        key={id}
-        >
-          <Link to={path} className=" mt-6 sm:mt-10" onClick={handleButtonClick}>
-            <div className=" w-28 h-28 sm:w-28 sm:h-28 rounded-full bg-lime-600 flex justify-center items-center sm:mt-0 -mt-10 ml-48 sm:ml-24 ">
-              <Icon  className=' text-white text-6xl flex  sm:text-white sm:text-6xl sm:flex text-center ripple-effect '/>
-            </div> {/* Render the icon component */}
-
-            <span className="text-base text-gray-600 font-light sm:mt-12 pt-6 sm:items-center sm:text-center text-center  " style={{ fontFamily: 'Roboto Slab' }}>{title}</span> {/* Changed 'text' to 'title' */}
-            
-            <div>
-                <span className="text-base text-gray-600 font-medium sm:text-center text-center sm:items-center sm:px-0 px-6 ">{text2}</span>
-            </div>
-          </Link>
+    <div className='grid sm:flex sm:items-center items-center justify-center text-center sm:space-x-16'>
+  {IconData.map(({ id, icon: Icon, title, text2, path }) => (
+    <div className='w-full h-80 sm:w-80 sm:h-80 border-2 flex justify-center items-center sm:flex sm:justify-center sm:space-y-10 space-y-10 ml-0' key={id}>
+      <Link to={path} className="mt-6 sm:mt-10 flex flex-col items-center" onClick={handleButtonClick}>
+        <div className="w-28 h-28 sm:w-28 sm:h-28 rounded-full bg-lime-600 flex justify-center items-center -mt-10">
+          <Icon className='text-white text-6xl flex sm:text-white sm:text-6xl ripple-effect' />
         </div>
-      ))}
+
+        <span className="text-base text-gray-600 font-light mt-4" style={{ fontFamily: 'Roboto Slab' }}>{title}</span>
+
+        <div>
+          <span className="text-base text-gray-600 font-medium px-6 mt-2">{text2}</span>
+        </div>
+      </Link>
     </div>
+  ))}
+</div>
+
     </div>
   );
 }
