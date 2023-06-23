@@ -37,7 +37,7 @@ const SearchInput = ({ items, onSearch }) => {
   );
 
   return (
-    <div className=" ml-60rem mt-8 z-10  hidden fixed sm:w-80 sm:h-28 sm:flex sm:justify-end sm:bg-stone-200 sm:border border-stone-400 sm:p-4 ">
+    <div className=" ml-60rem mt-8 z-10 hidden fixed sm:w-80 sm:h-28 sm:flex sm:justify-end sm:bg-none sm:border border-stone-400 sm:p-4 ">
       <input
         type="text"
         placeholder="Search..."

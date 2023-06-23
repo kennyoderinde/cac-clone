@@ -34,7 +34,7 @@ const Search = () => {
       {isSearchVisible && <SearchInput items={items} onSearch={handleSearch} />}
 
       {(filteredItems !== null && filteredItems.length > 0) ? (
-        <ul className='z-20 relative ml-61rem sm:w-72 sm:h-80 bg-white  sm:mt-28 sm:border sm:border-stone-300'>
+        <ul className=''>
           {filteredItems.map((item, index) => (
             <li key={index} className='border border-stone-300 h-12 p-3'>
               {item}
