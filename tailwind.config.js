@@ -20,6 +20,8 @@ module.exports = {
         '60rem': '60rem', // Replace with your desired value
         '61rem': '61rem',
         '67rem': '67rem',
+        '59rem': '59rem',
+
 
         '43rem': '43rem' ,  
 
