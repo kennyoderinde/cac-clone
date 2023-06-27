@@ -28,7 +28,7 @@ const SearchInput = ({ items, onSearch }) => {
 
   const Alert = () => (
     <div
-      className=" z-10 relative p-2 border-2 border-stone-400 top-16 left-0 bg-gray-100 w-56 h-14 flex items-center justify-center text-gray-500 whitespace-nowrap"
+      className=" z-20 relative p-2 border-2 border-stone-400 top-16 left-0 bg-gray-100 w-56 h-14 flex items-center justify-center text-gray-500 whitespace-nowrap"
       onClick={hideAlert}
     >
       <ImNotification className=' text-amber-500 text-2xl'/>

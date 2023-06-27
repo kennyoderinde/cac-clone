@@ -15,7 +15,7 @@ const Contact = () => {
       <div className= ' sm:z-10 z-10 sm:max-w-full sm:h-full sm:space-y-0'> 
         <img src={contactImg} alt='about-page-img' className= ' sm:fixed fixed  sm:z-0 sm:w-full  sm:h-42rem h-42rem sm:-mt-24 mt-20  w-full ' />
                 
-        <div className= ' sm:relative  sm:w-full sm:h-[42rem] sm:mt-28  w-full h-80 mt-0 bg-black sm:opacity-50 opacity-50 '>
+        <div className= ' sm:relative relative sm:w-full sm:h-[42rem] sm:mt-28  w-full h-80 mt-0 bg-black sm:opacity-50 opacity-50 '>
           <div className= '  flex flex-col items-center justify-center text-center space-y-6 sm:pt-52 pt-32'>
             <p className= ' sm:text-8xl text-5xl text-stone-600 font-light ' style={{ fontFamily: 'Roboto Slab' }}> Contact Us </p>
             <span className= ' sm:text-2xl text-lg text-white font-medium font-poppins '>Ways To Get In Touch</span>
@@ -38,7 +38,10 @@ const Contact = () => {
            <div className= ' w-full h-full sm:w-full sm:h-full sm:flex grid place-items-center sm:-space-x-40'>
             <Form className='relative'/> 
 
-            <div className= ' sm:w-3/12 w-full sm:h-80 h-80 border border-gray-400 sm:ml-20 bg-white'></div>
+            <div className= ' sm:w-3/12 w-full sm:h-80 h-80 border border-gray-400 sm:ml-20 bg-white'>
+              <span className=''>Contact Us</span>
+              <p className=''>If you require any level of support for our services please get in touch with us via the methods below:</p>
+            </div>
 
           </div> 
 

@@ -12,12 +12,12 @@ const Navbar = () => {
   const navItems = [
     { id: 'home', label: 'Home', path: '/' },
     { id: 'about', label: 'About Us', path: '/about-us' },
+    { id: 'contact-us', label: 'Contact', path: '/contact-us' },
     { id: 'resources', label: 'Resources', path: '/resources' },
     { id: 'services', label: 'Services', path: '/services' },
     { id: 'news', label: 'News', path: '/news' },
     { id: 'foi-portal', label: 'Foi-portal', path: '/foi-portal' },
-    { id: 'contact-us', label: 'Contact', path: '/contact-us' },
-
+    
   ];
 
   return (
