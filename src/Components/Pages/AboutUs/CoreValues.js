@@ -48,11 +48,11 @@ const ProjectList = () => {
                     
                     <div 
                         key={project.id}
-                        className='  inline-block card bg-gray-400 w-72 h-72 shadow-xl shadow-lime-400  border-b-4 border-lime-700 '
+                        className='  inline-block card bg-white w-72 h-72 shadow-xl shadow-lime-400  border-b-4 border-lime-700 '
                     >
                         <div className=''>
-                            <span className=" flex items-center justify-center text-center font-medium text-gray-100 font-montserrat text-9xl sm:mt-6  mt-3 p-5 uppercase   ">{project.icon}</span>
-                            <span className=" flex items-center justify-center text-base text-center font-medium text-gray-100 font-montserrat sm:mt-1 -mt-3 p-5 uppercase  ">{project.title}</span>
+                            <span className=" flex items-center justify-center text-center font-medium text-lime-500 font-montserrat text-9xl sm:mt-6  mt-3 p-5 uppercase   ">{project.icon}</span>
+                            <span className=" flex items-center justify-center text-base text-center font-medium text-lime-500 font-montserrat sm:mt-1 -mt-3 p-5 uppercase  ">{project.title}</span>
                         </div>
                     </div>
                     ))}
