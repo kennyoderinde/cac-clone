@@ -37,13 +37,13 @@ const SearchInput = ({ items, onSearch }) => {
 
   //z-00 fixed sm: sm:bg-stone-200 sm:border border-stone-400 sm:p-4
   return (
-    <div className="ml-59rem -mt-6 sm:relative sm:w-80 sm:h-24 top-14 bg-stone-200 border sm:flex  ">
+    <div className="ml-59rem -mt-6 sm:relative sm:w-80 sm:h-24 top-14 bg-stone-200 border border-stone-300 sm:flex  ">
       <input
         type="text"
         placeholder="Search..."
         onChange={handleSearch}
         value={inputValue}
-        className=" w-full sm:w-56 sm:h-14 p-2 mt-10 outline-none border border-stone-400"
+        className=" w-full sm:w-56 sm:h-14 p-2 mt-10 outline-none border border-stone-300"
       />
 
       <div
