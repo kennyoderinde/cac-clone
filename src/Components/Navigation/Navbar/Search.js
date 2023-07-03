@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import SearchInput from './SearchInput';
-import { FaSearch, FaAngleDown } from 'react-icons/fa';
+import { FaSearch } from 'react-icons/fa';
 
 
 const Search = () => {
@@ -29,12 +29,12 @@ const Search = () => {
     
     
    
-      <div className='z-0 absolute left-20'>
+      <div className='z-30 relative flex '>
        
       {isSearchVisible && <SearchInput items={items} onSearch={handleSearch} />}
 
       {(filteredItems !== null && filteredItems.length > 0) ? (
-        <ul className=''>
+        <ul className=' z-40 w-80 flex flex-col ml-56 mt-28 bg-gray-300'>
           {filteredItems.map((item, index) => (
             <li key={index} className='border border-stone-300 h-12 p-3'>
               {item}

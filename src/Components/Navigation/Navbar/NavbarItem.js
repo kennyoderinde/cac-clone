@@ -51,7 +51,7 @@ const Navbar = () => {
               location.pathname === item.path ? 'text-lime-600 ' : 'text-black'
             }`}
           >
-            <Link to={item.path}>{item.label}</Link>
+            
           </li>
         ))}
       </ul>

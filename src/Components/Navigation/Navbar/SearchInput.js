@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { FaSearch } from 'react-icons/fa';
 import { ImNotification } from "react-icons/im";
 
-
 const SearchInput = ({ items, onSearch }) => {
   const [inputValue, setInputValue] = useState('');
   const [showAlert, setShowAlert] = useState(false);
@@ -28,32 +27,33 @@ const SearchInput = ({ items, onSearch }) => {
 
   const Alert = () => (
     <div
-      className=" z-20 relative p-2 border-2 border-stone-400 top-16 left-0 bg-gray-100 w-56 h-14 flex items-center justify-center text-gray-500 whitespace-nowrap"
+      className="fixed z-30 top-64 left-59rem border-2 border-stone-400 bg-gray-100 w-48 h-10 flex items-center text-sm P-1 justify-center text-gray-500 whitespace-nowrap rounded-lg"
       onClick={hideAlert}
     >
-      <ImNotification className=' text-amber-500 text-2xl'/>
+      <ImNotification className="text-amber-500 text-2xl" />
       Please fill in this space
     </div>
   );
 
+  //z-00 fixed sm: sm:bg-stone-200 sm:border border-stone-400 sm:p-4
   return (
-    <div className=" ml-60rem mt-8 z-10 hidden fixed sm:w-80 sm:h-28 sm:flex sm:justify-end sm:bg-none sm:border border-stone-400 sm:p-4 ">
+    <div className="ml-59rem -mt-6 sm:relative sm:w-80 sm:h-24 top-14 bg-stone-200 border sm:flex  ">
       <input
         type="text"
         placeholder="Search..."
         onChange={handleSearch}
         value={inputValue}
-        className=" fixed sm:w-72 sm:h-14 p-2 outline-none border-none"
+        className=" w-full sm:w-56 sm:h-14 p-2 mt-10 outline-none border border-stone-400"
       />
 
       <div
-        className=" fixed sm:w-16 sm:h-14 sm:flex sm:justify-end sm:bg-black hover:bg-lime-500 sm:border sm:px-5"
+        className="absolute right-0 top-10 flex justify-center items-center w-16 h-14 bg-black hover:bg-lime-500 border px-5"
         onClick={handleIconClick}
       >
-        <FaSearch className="text-white sm:text-lg mt-5" />
+        <FaSearch className="text-white text-lg" />
       </div>
-      
-      {showAlert && <Alert />}
+
+      {showAlert && <Alert className=''/>}
     </div>
   );
 };
