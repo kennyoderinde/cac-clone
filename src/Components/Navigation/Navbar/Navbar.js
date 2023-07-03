@@ -45,7 +45,7 @@ const Navbar = () => {
         <SocialLinks  className={` relative sm:relative ${isScrolled ? 'hidden' : ''}`}/>
 
 
-        <div className={` sm:z-20 z-20 sm:fixed fixed sm:-mt-12 top-28 w-full sm:w-full sm:h-32 h-24 bg-white border-b border-stone-300 shadow ${isScrolled ? 'top-1 sm:top-12' : ''}`}>
+        <div className={` sm:z-20 z-20 sm:fixed fixed sm:-mt-12 top-28 w-full sm:w-full sm:h-32 h-24 bg-white border-b border-stone-300 shadow ${isScrolled ? '-top-3 sm:top-12' : ''}`}>
          <img src={cacLogo} alt="logo" className="sm:w-44 sm:h-14 w-36 h-12 sm:ml-14 sm:mt-8 ml-8 mt-6" />
          <div className="sm:flex sm:items-end sm:justify-end  sm:space-x-10 sm:mr-12">
           <NavbarItem />

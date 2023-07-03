@@ -47,7 +47,7 @@ const SearchInput = ({ items, onSearch }) => {
       />
 
       <div
-        className="absolute right-0 top-10 flex justify-center items-center w-16 h-14 bg-black hover:bg-lime-500 border px-5"
+        className=" absolute right-0 top-10 sm:flex hidden justify-center items-center w-16 h-14 bg-black hover:bg-lime-500 border px-5"
         onClick={handleIconClick}
       >
         <FaSearch className="text-white text-lg" />
