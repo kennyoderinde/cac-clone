@@ -44,7 +44,7 @@ console.log(formData)
 
 
   return (
-    <div className='main-container sm:w-full sm:h-screen w-full h-screen -mt-14'>
+    <div className='main-container sm:w-full sm:h-screen h-screen -mt-14'>
    
           <form onSubmit={handleSubmit} className="page-form sm:w-full sm:h-full  w-full h-full grid space-y-4  ml-12 bg-white">
           <label htmlFor="firstName" className='fname'> Your First Name (required)</label>

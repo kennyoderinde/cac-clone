@@ -36,7 +36,7 @@ const Contact = () => {
           </div>
 
            <div className= ' w-full h-full sm:w-full sm:h-full sm:flex grid place-items-center sm:-space-x-40'>
-            <Form className='relative'/> 
+            <Form className=''/> 
 
             <div className= ' sm:w-3/12 w-full sm:h-80 h-80 border border-gray-400 sm:ml-20 bg-white'>
               <span className=''>Contact Us</span>
